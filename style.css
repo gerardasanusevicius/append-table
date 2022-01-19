@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: arial;
+}
+
+h1 {
+  padding: 5px;
+}
+
+input {
+  padding: 2.5px;
+  margin: 5px 0px 5px 5px;
+  width: 200px;
+}
+
+button {
+  padding: 2.5px;
+  margin: 5px 0px 5px 5px;
+  width: 209px;
+  border-radius: 3px;
+}
+
+table {
+  margin-left: 5px;
+  width: 646px;
+  border: 2px solid goldenrod;
+  border-collapse: collapse;
+}
+th {
+  background: goldenrod;
+  text-transform: uppercase;
+  height: 50px;
+}
+
+th:nth-child(2) {
+  background: rgb(185, 141, 29);
+}
+
+td {
+  border: 2px solid goldenrod;
+  height: 50px;
+  background: rgb(55, 27, 83);
+  padding-left: 10px;
+  color: white;
+  font-weight: bold;
+}
